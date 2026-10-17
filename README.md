@@ -1,4 +1,4 @@
-# Code — Collaboration Normalization and Top-K Selection in AI Research Evaluation
+# Code — From Rank Agreement to Shortlist Overlap: Collaboration-Normalized Citation Impact in Artificial Intelligence Research
 
 Berke Akkaya (Istanbul University). Analysis code for the manuscript of the same title. The code regenerates every table, figure and in-text statistic of the manuscript from Clarivate InCites exports.
 
