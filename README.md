@@ -1,5 +1,5 @@
 # Code — From Rank Agreement to Shortlist Overlap: Collaboration-Normalized Citation Impact in Artificial Intelligence Research
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23434885.svg)](https://doi.org/10.5281/zenodo.23434885)
 Berke Akkaya (Istanbul University). Analysis code for the manuscript of the same title. The code regenerates every table, figure and in-text statistic of the manuscript from Clarivate InCites exports.
 
 **Data are not included.** The study uses Clarivate InCites Benchmarking & Analytics exports obtained under a subscription licence; they cannot be redistributed. Results derived from them and the curated organizational hierarchy map used in the study are available from the author on request. To run the pipeline without licensed data, use the synthetic data generator (Section 3).
