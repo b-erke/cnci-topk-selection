@@ -1,2 +1,2 @@
-"""Replication code for 'Collaboration Normalization and Top-K Selection in AI Research Evaluation'."""
+"""Replication code for 'From Rank Agreement to Shortlist Overlap: Collaboration-Normalized Citation Impact in Artificial Intelligence Research'."""
 __version__ = "1.0.0"
