@@ -1,0 +1,5 @@
+child,parent,relation_type,basis,curated_on,evidence_url,verification
+Google Incorporated,Alphabet Inc.,corporate subsidiary or unit,manual,synthetic,,synthetic example for tests
+DeepMind,Alphabet Inc.,corporate subsidiary or unit,manual,synthetic,,synthetic example for tests
+"Institute of Automation, CAS",Chinese Academy of Sciences,research-organisation institute,manual,synthetic,,synthetic example for tests
+University of California Berkeley,University of California System,US state university system member,manual,synthetic,,synthetic example for tests
