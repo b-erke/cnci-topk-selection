@@ -1,5 +1,5 @@
 # Code — From Rank Agreement to Shortlist Overlap: Collaboration-Normalized Citation Impact in Artificial Intelligence Research
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23434885.svg)](https://doi.org/10.5281/zenodo.23434885)
+
 Berke Akkaya (Istanbul University). Analysis code for the manuscript of the same title. The code regenerates every table, figure and in-text statistic of the manuscript from Clarivate InCites exports.
 
 **Data are not included.** The study uses Clarivate InCites Benchmarking & Analytics exports obtained under a subscription licence; they cannot be redistributed. Results derived from them and the curated organizational hierarchy map used in the study are available from the author on request. To run the pipeline without licensed data, use the synthetic data generator (Section 3).
@@ -18,6 +18,11 @@ python scripts/run_all.py --data-dir data/raw --edges path/to/hierarchy_edges.cs
 python scripts/run_all.py --data-dir data/raw --steps topk,regressions                                # selected steps only
 ```
 Steps: descriptives, topk, fits, references, modelsel, gof, holdout, hierarchy, regressions, figures. Options: `--reps` (copula replicates, default 10,000), `--boot` (coefficient bootstrap, default 10,000), `--boot-modelsel` (default 200), `--gof-boot` (goodness-of-fit bootstrap, default 1,000), `--workers`.
+
+Supplementary robustness checks reported in the manuscript (top-K overlap across publication thresholds; overlap references that propagate parameter uncertainty under unit-level and hierarchy-family resampling; family-level model selection; Monte Carlo standard errors). Run after `run_all.py`, with the same `--out-dir`:
+```
+python scripts/supplementary_checks.py --data-dir data/raw --edges path/to/hierarchy_edges.csv --out-dir results   # about 11 min
+```
 
 Independent verification without pyvinecopulib (NumPy/SciPy only) and a check of a manuscript file against the outputs:
 ```
