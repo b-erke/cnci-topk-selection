@@ -1,0 +1,138 @@
+child,parent,relation_type,basis,curated_on,evidence_url,verification
+Google Incorporated,Alphabet Inc.,corporate subsidiary or unit,manual,2026-10-13,,well-documented membership; source not individually recorded
+DeepMind,Alphabet Inc.,corporate subsidiary or unit,manual,2026-10-13,,well-documented membership; source not individually recorded
+Microsoft China,Microsoft,corporate subsidiary or unit,manual,2026-10-13,,well-documented membership; source not individually recorded
+Microsoft Research Asia,Microsoft China,corporate subsidiary or unit,manual,2026-10-13,https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/about-us/,source checked 2026-10-14
+Intel USA,Intel Corporation,corporate subsidiary or unit,manual,2026-10-13,,well-documented membership; source not individually recorded
+IBM USA,International Business Machines (IBM),corporate subsidiary or unit,manual,2026-10-13,,well-documented membership; source not individually recorded
+"re:, CAS$",Chinese Academy of Sciences,research-organisation institute,name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:^CNRS - ,Centre National de la Recherche Scientifique (CNRS),research-organisation institute,name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:-CNR\)$,Consiglio Nazionale delle Ricerche (CNR),research-organisation institute,name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:^A\*STAR - ,Agency for Science Technology & Research (A*STAR),research-organisation institute,name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+German Aerospace Centre (DLR),Helmholtz Association,research-organisation institute,manual,2026-10-13,https://www.gsi.de/en/about_us/helmholtz_association,source checked 2026-10-14
+Karlsruhe Institute of Technology,Helmholtz Association,research-organisation institute,manual,2026-10-13,https://www.gsi.de/en/about_us/helmholtz_association,source checked 2026-10-14
+Julich Research Centre,Helmholtz Association,research-organisation institute,manual,2026-10-13,https://www.gsi.de/en/about_us/helmholtz_association,source checked 2026-10-14
+Fraunhofer Germany,Fraunhofer Gesellschaft,research-organisation institute,manual,2026-10-13,,well-documented membership; source not individually recorded
+ETH Zurich,Swiss Federal Institutes of Technology Domain,"university federation, system or network member",manual,2026-10-13,https://www.sbfi.admin.ch/sbfi/en/home/hs/hochschulen/der-eth-bereich.html,source checked 2026-10-14
+Ecole Polytechnique Federale de Lausanne,Swiss Federal Institutes of Technology Domain,"university federation, system or network member",manual,2026-10-13,https://www.sbfi.admin.ch/sbfi/en/home/hs/hochschulen/der-eth-bereich.html,source checked 2026-10-14
+Birkbeck University London,University of London,"university federation, system or network member",manual,2026-10-13,https://www.london.ac.uk/ways-study/study-campus-london/member-institutions,source checked 2026-10-14
+"City St Georges, University of London",University of London,"university federation, system or network member",manual,2026-10-13,https://www.london.ac.uk/ways-study/study-campus-london/member-institutions,source checked 2026-10-14
+King's College London,University of London,"university federation, system or network member",manual,2026-10-13,https://www.london.ac.uk/ways-study/study-campus-london/member-institutions,source checked 2026-10-14
+Queen Mary University London,University of London,"university federation, system or network member",manual,2026-10-13,https://www.london.ac.uk/ways-study/study-campus-london/member-institutions,source checked 2026-10-14
+University College London,University of London,"university federation, system or network member",manual,2026-10-13,https://www.london.ac.uk/ways-study/study-campus-london/member-institutions,source checked 2026-10-14
+re:London School of Economics,University of London,"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:Royal Holloway,University of London,"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:Goldsmiths,University of London,"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:SOAS,University of London,"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+Hamad Bin Khalifa University-Qatar,Qatar Foundation (QF),"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+Texas A&M University Qatar,Qatar Foundation (QF),"university federation, system or network member",manual,2026-10-13,https://catalog.tamu.edu/undergraduate/qatar,source checked 2026-10-14
+Qatar Computing Research Institute,Hamad Bin Khalifa University-Qatar,university research institute,manual,2026-10-13,https://hbku.edu.qa/en/qcri/about,source checked 2026-10-14
+Harvard Medical School,Harvard University,"school, faculty or hospital record",manual,2026-10-13,,well-documented membership; source not individually recorded
+Massachusetts General Hospital,Harvard University Medical Affiliates,affiliated hospital,manual,2026-10-13,,well-documented membership; source not individually recorded
+Brigham & Women's Hospital,Harvard University Medical Affiliates,affiliated hospital,manual,2026-10-13,,well-documented membership; source not individually recorded
+re:^Indian Institute of Technology \(IIT\) - ,Indian Institute of Technology System (IIT System),"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+Indian Institute of Technology (Indian School of Mines) Dhanbad,Indian Institute of Technology System (IIT System),"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi),Indian Institute of Technology System (IIT System),"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+re:National Institute of Technology [A-Z],National Institute of Technology (NIT System),"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+"re:National Institute of Technology,",National Institute of Technology (NIT System),"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:^VNU-HCM ,Vietnam National University Ho Chi Minh City (VNUHCM) System,"university federation, system or network member",name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+re:^University of California (?!System),University of California System,US state university system member,name-pattern rule (manually reviewed matches),2026-10-13,,name rule (all matches reviewed)
+University of Illinois Chicago,University of Illinois System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Illinois Urbana-Champaign,University of Illinois System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Illinois Chicago Hospital,University of Illinois Chicago,"school, faculty or hospital record",manual,2026-10-13,,well-documented membership; source not individually recorded
+Georgia Institute of Technology,University System of Georgia,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Georgia State University,University System of Georgia,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Georgia,University System of Georgia,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Florida Atlantic University,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Florida International University,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Florida State University,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Central Florida,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Florida,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of South Florida,State University System of Florida,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+"Binghamton University, SUNY",State University of New York (SUNY) System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+SUNY New Paltz,State University of New York (SUNY) System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+"University at Albany, SUNY",State University of New York (SUNY) System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+"University at Buffalo, SUNY",State University of New York (SUNY) System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Stony Brook University,State University of New York (SUNY) System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Pennsylvania State University,Pennsylvania Commonwealth System of Higher Education (PCSHE),US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Pittsburgh,Pennsylvania Commonwealth System of Higher Education (PCSHE),US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Temple University,Pennsylvania Commonwealth System of Higher Education (PCSHE),US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Pennsylvania State University - University Park,Pennsylvania State University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Maryland Baltimore County,University System of Maryland,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Maryland College Park,University System of Maryland,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Ohio State University,University System of Ohio,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Cincinnati,University System of Ohio,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Wright State University Dayton,University System of Ohio,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Texas A&M University College Station,Texas A&M University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Texas A&M University Qatar,Texas A&M University College Station,"campus, branch or overseas campus",manual,2026-10-13,https://catalog.tamu.edu/undergraduate/qatar,source checked 2026-10-14
+University of Texas Arlington,University of Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Texas Austin,University of Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Texas Dallas,University of Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Texas El Paso,University of Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Texas at San Antonio,University of Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Texas Tech University,Texas Tech University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Houston,University of Houston System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of North Texas Denton,University of North Texas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Purdue University,Purdue University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Purdue University in Indianapolis,Purdue University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Indiana University Bloomington,Indiana University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Indiana University Indianapolis,Indiana University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Louisiana State University,Louisiana State University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Colorado State University Fort Collins,Colorado State University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Colorado Boulder,University of Colorado System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Nevada Reno,Nevada System of Higher Education (NSHE),US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Utah,Utah System of Higher Education,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Massachusetts Amherst,University of Massachusetts System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Missouri Columbia,University of Missouri System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Missouri University of Science & Technology,University of Missouri System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Nebraska Lincoln,University of Nebraska System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Tennessee Knoxville,University of Tennessee System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Arkansas Fayetteville,University of Arkansas System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Wisconsin Madison,University of Wisconsin System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Minnesota Twin Cities,University of Minnesota System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Oklahoma State University - Stillwater,Oklahoma State University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Oklahoma - Norman,University of Oklahoma System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Michigan,University of Michigan System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Rutgers University New Brunswick,Rutgers University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+Auburn University,Auburn University System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of South Carolina Columbia,University of South Carolina System,US state university system member,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of North Carolina Chapel Hill,University of North Carolina,"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of North Carolina Charlotte,University of North Carolina,"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of North Carolina School of Medicine,University of North Carolina Chapel Hill,"school, faculty or hospital record",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Washington Seattle,University of Washington,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+New York University Tandon School of Engineering,New York University,"school, faculty or hospital record",manual,2026-10-13,,well-documented membership; source not individually recorded
+New York University Abu Dhabi,New York University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+"Shenzhen Research Institute, City University of Hong Kong",City University of Hong Kong,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Hong Kong University of Science & Technology (Guangzhou),Hong Kong University of Science & Technology,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Tsinghua Shenzhen International Graduate School,Tsinghua University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Peking University Shenzhen Graduate School (PKU Shenzhen),Peking University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+"Shenzhen Institute for Advanced Study, UESTC",University of Electronic Science & Technology of China,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Leiden University - Excl LUMC,Leiden University,alternative delineation of same institution,manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Adelaide,Adelaide University,merged predecessor institution,manual,2026-10-13,https://insiderguides.com.au/what-you-need-to-know-about-the-adelaide-university-merger/,source checked 2026-10-14
+University of South Australia,Adelaide University,merged predecessor institution,manual,2026-10-13,https://insiderguides.com.au/what-you-need-to-know-about-the-adelaide-university-merger/,source checked 2026-10-14
+State Key Laboratory of Transient Optics & Photonics,"Xi'an Institute of Optics & Precision Mechanics, CAS",hosted state key laboratory,manual,2026-10-13,https://english.opt.cas.cn/en2019/research_22495/keylaboratory/sklotoap/Introduction/,source checked 2026-10-14
+ENSTA Paris,Institut Polytechnique de Paris,"university federation, system or network member",manual,2026-10-13,https://www.ip-paris.fr/sites/default/files/presse/document/2020-10/19_06_03_PR_IP_Paris_Official_Creation_EN.pdf,source checked 2026-10-14
+Ecole Polytechnique,Institut Polytechnique de Paris,"university federation, system or network member",manual,2026-10-13,https://www.ip-paris.fr/sites/default/files/presse/document/2020-10/19_06_03_PR_IP_Paris_Official_Creation_EN.pdf,source checked 2026-10-14
+Telecom Paris,Institut Polytechnique de Paris,"university federation, system or network member",manual,2026-10-13,https://www.telecom-paris.fr/institut-polytechnique-paris-officially-established,source checked 2026-10-14
+Telecom SudParis,Institut Polytechnique de Paris,"university federation, system or network member",manual,2026-10-13,https://telecom-sudparis.eu/en/about-us/telecom-sudparis-member-of-ip-paris,source checked 2026-10-14
+Ecole Normale Superieure (ENS),Universite PSL,"university federation, system or network member",manual,2026-10-13,https://www.psl.eu/en/schools-and-institutes,source checked 2026-10-14
+Universite Paris-Dauphine,Universite PSL,"university federation, system or network member",manual,2026-10-13,https://dauphine.psl.eu/en/dauphine/about-dauphine/psl-university/component-institutions,source checked 2026-10-14
+Universite Grenoble Alpes (UGA),Communaute Universite Grenoble Alpes,"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+Institut National Polytechnique de Grenoble,Universite Grenoble Alpes (UGA),constituent institute,manual,2026-10-13,https://www.cara.eu/en/member/grenoble-inp/,source checked 2026-10-14
+Lawrence Berkeley National Laboratory,United States Department of Energy (DOE),government laboratory,manual,2026-10-13,,well-documented membership; source not individually recorded
+Los Alamos National Laboratory,United States Department of Energy (DOE),government laboratory,manual,2026-10-13,,well-documented membership; source not individually recorded
+Oak Ridge National Laboratory,United States Department of Energy (DOE),government laboratory,manual,2026-10-13,,well-documented membership; source not individually recorded
+Argonne National Laboratory,United States Department of Energy (DOE),government laboratory,manual,2026-10-13,,well-documented membership; source not individually recorded
+CSIRO Data61,Commonwealth Scientific & Industrial Research Organisation (CSIRO),research-organisation institute,manual,2026-10-13,,well-documented membership; source not individually recorded
+Systems Research Institute of the Polish Academy of Sciences,Polish Academy of Sciences,research-organisation institute,manual,2026-10-13,,well-documented membership; source not individually recorded
+CSIC - Instituto de Investigacion en Inteligencia Artificial (IIIA),Consejo Superior de Investigaciones Cientificas (CSIC),research-organisation institute,manual,2026-10-13,,well-documented membership; source not individually recorded
+National Institute of Informatics (NII) - Japan,Research Organization of Information & Systems (ROIS),research-organisation institute,manual,2026-10-13,https://www.nig.ac.jp/en/public/rois/,source checked 2026-10-14
+Monash University Malaysia,Monash University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Nottingham Ningbo China,University of Nottingham,joint-venture campus bearing the parent name (legally separate),manual,2026-10-13,https://en.wikipedia.org/wiki/University_of_Nottingham_Ningbo_China,source checked 2026-10-14
+Duke Kunshan University,Duke University,joint-venture campus bearing the parent name (legally separate),manual,2026-10-13,https://en.wikipedia.org/wiki/Duke_Kunshan_University,source checked 2026-10-14
+"The Chinese University of Hong Kong, Shenzhen",Chinese University of Hong Kong,joint-venture campus bearing the parent name (legally separate),manual,2026-10-13,,well-documented membership; source not individually recorded
+Indian Statistical Institute Kolkata,Indian Statistical Institute,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Anna University Chennai,Anna University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+Amrita Vishwa Vidyapeetham Coimbatore,Amrita Vishwa Vidyapeetham,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded
+University of Quebec Montreal,University of Quebec,"university federation, system or network member",manual,2026-10-13,,well-documented membership; source not individually recorded
+Purdue University in Indianapolis,Purdue University,"campus, branch or overseas campus",manual,2026-10-13,,well-documented membership; source not individually recorded

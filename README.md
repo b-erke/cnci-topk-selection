@@ -2,7 +2,7 @@
 
 Berke Akkaya (Istanbul University). Analysis code for the manuscript of the same title. The code regenerates every table, figure and in-text statistic of the manuscript from Clarivate InCites exports.
 
-**Data are not included.** The study uses Clarivate InCites Benchmarking & Analytics exports obtained under a subscription licence; they cannot be redistributed. Results derived from them and the curated organizational hierarchy map used in the study are available from the author on request. To run the pipeline without licensed data, use the synthetic data generator (Section 3).
+**Data are not included.** The study uses Clarivate InCites Benchmarking & Analytics exports obtained under a subscription licence; they cannot be redistributed. Results derived from them are available from the author on request. The curated organizational hierarchy map used in the study is included as `data/hierarchy_edges.csv`; it contains organization names, relation types and sources only, no InCites indicator values. To run the pipeline without licensed data, use the synthetic data generator (Section 3).
 
 ## 1. Requirements
 Python 3.11–3.13. Install the pinned versions (pyvinecopulib is required for the analysis and the copula tests; it installs from PyPI wheels):
@@ -11,17 +11,17 @@ python -m pip install -r requirements.txt
 ```
 
 ## 2. Run on licensed data
-Place the two InCites exports in a folder (for example `data/raw/`); required file names, filters and columns are listed in `data/README.md`. Supply a hierarchy map with `--edges` (format in `data/README.md`).
+Place the two InCites exports in a folder (for example `data/raw/`); required file names, filters and columns are listed in `data/README.md`. The study's hierarchy map, `data/hierarchy_edges.csv`, is used by default (format in `data/README.md`).
 ```
-python scripts/run_all.py --data-dir data/raw --edges path/to/hierarchy_edges.csv --out-dir results   # full run (about 50 min on 2 cores)
-python scripts/run_all.py --data-dir data/raw --edges path/to/hierarchy_edges.csv --out-dir /tmp/check --quick
+python scripts/run_all.py --data-dir data/raw --out-dir results   # full run (about 50 min on 2 cores)
+python scripts/run_all.py --data-dir data/raw --out-dir /tmp/check --quick
 python scripts/run_all.py --data-dir data/raw --steps topk,regressions                                # selected steps only
 ```
 Steps: descriptives, topk, fits, references, modelsel, gof, holdout, hierarchy, regressions, figures. Options: `--reps` (copula replicates, default 10,000), `--boot` (coefficient bootstrap, default 10,000), `--boot-modelsel` (default 200), `--gof-boot` (goodness-of-fit bootstrap, default 1,000), `--workers`.
 
-Supplementary robustness checks reported in the manuscript (top-K overlap across publication thresholds; overlap references that propagate parameter uncertainty under unit-level and hierarchy-family resampling; family-level model selection; Monte Carlo standard errors). Run after `run_all.py`, with the same `--out-dir`:
+Supplementary robustness checks reported in the manuscript (top-K overlap across publication thresholds; overlap references that propagate parameter uncertainty under unit-level and hierarchy-family resampling; family-level model selection; Monte Carlo standard errors; split-sample prediction of held-out overlap for every copula family; a multiplicity-aware check of the country cutoffs). Run after `run_all.py`, with the same `--out-dir`:
 ```
-python scripts/supplementary_checks.py --data-dir data/raw --edges path/to/hierarchy_edges.csv --out-dir results   # about 11 min
+python scripts/supplementary_checks.py --data-dir data/raw --out-dir results   # about 20 min; --only 5,6 runs selected sections
 ```
 
 Independent verification without pyvinecopulib (NumPy/SciPy only) and a check of a manuscript file against the outputs:
